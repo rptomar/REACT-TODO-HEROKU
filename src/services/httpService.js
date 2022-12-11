@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiURL = "https://todo-node-rest-api-10x.herokuapp.com/api/todo";
+const apiURL = "https://node-todo-app-jf4c.onrender.com/api/todo";
 
 export function getTasks() {
   return axios.get(apiURL + "s");
